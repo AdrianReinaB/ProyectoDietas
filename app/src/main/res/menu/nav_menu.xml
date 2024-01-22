@@ -25,6 +25,11 @@
             android:icon="@drawable/baseline_food_bank_24"
             android:title="Menus"/>
 
+        <item
+            android:id="@+id/nav_receta"
+            android:icon="@drawable/baseline_receipt_24"
+            android:title="Recetas"/>
+
 
     </group>
 

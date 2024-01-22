@@ -16,6 +16,7 @@ import com.example.proyectodietas.fragments.FoodFragment
 import com.example.proyectodietas.fragments.HomeFragment
 import com.example.proyectodietas.fragments.IngredientesFragment
 import com.example.proyectodietas.fragments.MenuFragment
+import com.example.proyectodietas.fragments.RecetaFragment
 import com.example.proyectodietas.modelo.entidades.DataClass
 import com.google.android.material.navigation.NavigationView
 import modelo.entidades.Alimento
@@ -49,6 +50,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.bottom_food->openFragment(FoodFragment())
             R.id.bottom_menu->openFragment(MenuFragment())
             R.id.bottom_ingredientes->openFragment(IngredientesFragment())
+            R.id.bottom_receta->openFragment(RecetaFragment())
             }
             true
         }
@@ -88,6 +90,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_food->openFragment(FoodFragment())
             R.id.nav_menu->openFragment(MenuFragment())
             R.id.nav_ingrediente->openFragment(IngredientesFragment())
+            R.id.nav_receta->openFragment(RecetaFragment())
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true
